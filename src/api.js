@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://smtp-and-imap-backend-git-8ce6a0-badityaaditya98-9228s-projects.vercel.app",
+    baseURL: process.env.baseURL,
 })
 
 const sendEmail = async (data) => {
