@@ -30,7 +30,7 @@ export default function EmailList({ onSelectEmail, theme = "light" }) {
           </tr>
         </thead>
         <tbody>
-          {/* {emails.map((email) => (
+          {emails.map((email) => (
             <tr
               key={email.messageId}
               className={`cursor-pointer border-b ${borderColor} ${rowHover}`}
@@ -45,7 +45,7 @@ export default function EmailList({ onSelectEmail, theme = "light" }) {
                 {email.body || email.snippet || "-"}
               </td>
             </tr>
-          ))} */}
+          ))}
         </tbody>
       </table>
     </div>
